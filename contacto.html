@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+            <div id="menu"  class="topnav">
+                <a href="index.html">Inicio</a>
+                <a href="tema.html">Tema</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="contacto.html" class="active">Contacto</a>
+
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-paw huella"></i>
+                </a>
+            </div>
+
+            <div class="container">
+
+        <div id="bannercontacto">
+        </div>
+
+        <div class="articulo-contacto-1">
+            <h1>Contacto</h1>
+        </div>
+
+        <div class="articulo-contacto-2">
+            <form action="/action_page.php" method="post">
+                <label>Nombre:</label><br>
+                <input type="text" name="Nombre"><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="Email"><br>
+
+                <label>Mensaje:</label><br>
+                <textarea name="Mensaje"></textarea><br>
+
+                <label>¿Te gustaría recibir más información sobre el mejor animal del fking planeta?</label><br>
+                <input type="radio" name="recibir">
+                <label>Sí</label><br>
+
+                <input type="radio" name="recibir">
+                <label>No</label><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div class="mapa">
+            <p>Lugar con mas mapaches en el mundo</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369485.3294867542!2d-79.65049216850656!3d43.656403832605996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb8f1b91bde5%3A0xfe2e23518036d40e!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2suy!4v1782765655712!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                
+        </div>
+
+        <div id="footer">
+            <p class="icono">🦝</p>
+            <h4>Maia Morales | Joaquin Molina | Micaela Menéndez</h4>
+            <h5>PAI | LDCV | 2026</h5>
+        </div>
+
+    </div>
+
+     <script>
+function myFunction() {
+    var x = document.getElementById("menu");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>
