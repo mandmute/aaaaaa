@@ -345,6 +345,7 @@ input[type=submit]:hover{
 
     .hero-text h1{
         font-size:3em;
+        text-align: center;
     }
 
     #bannerinicio{
